@@ -21,36 +21,24 @@ Each comparison comes with:
 - Bilingual UI (FR / EN)
 - Native PDF export
 
-## 🚀 Quick start
+![HerlynCalc screenshot](Pictures/Herlyn_calc.png)
 
-```bash
-# Install dependencies
-npm install
+### 📦 Deployment
 
-# Run dev server (opens at http://localhost:5173)
-npm run dev
+## 🌐 Live demo
 
-# Build for production
-npm run build
+👉 **[herlyncalc.vercel.app](https://herlyn-calc.vercel.app/)** 
 
-# Preview production build
-npm run preview
-```
+The site is deployed on **Vercel** with automatic deployment from the `main` branch.
+Any push to `main` triggers a redeploy within ~2 minutes.
 
-## 📦 Deployment
+## 🛠 Deploy your own copy
 
-### Vercel (recommended — 2 min)
+Want to fork and host your own instance? The project works out of the box on:
 
-1. Push this repo to GitHub
-2. Go to [vercel.com](https://vercel.com), click **Import Project**
-3. Pick this repo → Vercel auto-detects Vite, click **Deploy**
-4. Your site is live at `your-project.vercel.app`
-
-### Netlify
-
-1. Push to GitHub
-2. On Netlify, **New site from Git** → select repo
-3. Build command: `npm run build` · Publish directory: `dist`
+- **Vercel** (recommended) — auto-detects Vite, zero config
+- **Netlify** — build command: `npm run build`, publish dir: `dist`
+- **Any static host** — just upload the `dist/` folder after `npm run build`
 
 ### GitHub Pages
 
